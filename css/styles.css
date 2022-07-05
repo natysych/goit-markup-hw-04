@@ -215,16 +215,24 @@ background-size: contain;
 background-repeat: no-repeat;
 }
 .advantage-items.icon-antenna::before {
-background-image: url(../images/antenna.png) ;
-}
+    background-image: url(../images/antenna.png);
+    height: 70px;
+    width: 70px;
+    }
 .advantage-items.icon-clock::before {
     background-image: url(../images/clock.png);
+    height: 70px;
+    width: 70px;
 }
 .advantage-items.icon-computer::before {
     background-image: url(../images/computer.png);
+    height: 70px;
+    width: 70px;
 }
 .advantage-items.icon-astronaft::before {
     background-image: url(../images/astronaut.png);
+    height: 70px;
+    width: 70px;
 }
 .advantage-header {
 margin-bottom: 10px;
@@ -299,6 +307,11 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 }
 /* Секция - Постоянные клиенты */
+.permanentclients {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
 .section-clients {
 display: inline-block;
 height: 170px;
@@ -306,6 +319,8 @@ width: 92px;
 background-color: #AFB1B8;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
+background-repeat: no-repeat;
+background-position: center;
 }
 .client-one {
     background-image: url(../images/Logoclient1.png);
