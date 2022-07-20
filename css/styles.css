@@ -227,6 +227,7 @@ flex-basis: calc((100%-4*30px)/4);
     text-align: center;
     background-size: cover;
     flex-grow: 1;
+    border-radius: 4px;
 }
 .advantage-items_pic:hover {
     border: 1px solid var(--weblogo-color);
