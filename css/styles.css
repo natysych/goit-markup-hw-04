@@ -329,22 +329,21 @@ flex-basis: calc((100%-4*30px)/4);
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: var(--tel-color);
 }
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
-    fill: var(--tel-color);
-    }
+    fill: var(--tel-color);    }
+    
 .social-list-link:hover,
 .social-list-link:focus {
-    background-color: var(--weblogo-color);
-}
-.social-list-icon {
-    fill: var(--tel-color);
-}
+    background-color: var(--weblogo-color);}
+
 .clients {
     display: flex;
-    flex-wrap: wrap;
-}
+    flex-wrap: wrap;}
+
 .clients-items {
     height: 92px;
     width: 170px;
