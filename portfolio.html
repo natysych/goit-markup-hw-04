@@ -19,42 +19,49 @@
 
 
     <!-- Оглавление -->
-<header class="header">
-<div class="container header-container">
-    <nav class="navigation">
-        <a href="" class="webstudio"><span class="web">Web</span><span class="studio">Studio</span></a>
-        <ul class="nav-list">
-            <li class="nav-listitem"><a href="./index.html" class="href">Студия</a></li>
-            <li class="nav-listitem"><a href="./portfolio.html" class="href current">Портфолио</a></li>
-            <li class="nav-listitem"><a href="/" class="href">Контакты</a></li>
+    <header class="header header-portfolio">
+        <div class="container header-container">
+        <nav class="navigation">
+            <a href="" class="webstudio"><span class="web">Web</span><span class="studio">Studio</span></a>
+                <ul class="nav-list">
+                    <li class="nav-listitem"><a href="./index.html" class="href current">Студия</a></li>
+                    <li class="nav-listitem"><a href="./portfolio.html" class="href">Портфолио</a></li>
+                    <li class="nav-listitem"><a href="/" class="href">Контакты</a></li>
+                </ul>
+        </nav>
+        
+        <ul class="nav-listcontacts">
+                <li class="email">
+                   
+                <a class="contacts" href="mailto:info@example.com">
+                    <svg class="envelope" width="16" height="12">
+                        <use 
+                        href="./images/sprite.svg#icon-envelope">
+                    </use>
+                    </svg>
+                    info@example.com</a>
+        
+                </li>
+               
+                <li class="tel">
+                    
+                <a class="contacts" href="tel:0961111111">
+                    <svg class="smartphone" width="10" height="16">
+                        <use 
+                        href="./images/sprite.svg#icon-smartphone">
+                    </use>
+                    </svg >
+                    +380961111111
+                </a>
+                </li>
         </ul>
-    </nav>
+        </div>
+        </header>
 
-    <ul class="nav-listcontacts">
-        <li class="email">
-        <svg class="envelope" width="16" height="12">
-            <use 
-            href="./images/sprite.svg#icon-envelope">
-        </use>
-        </svg>
-      
-        <a href="mailto:info@example.com" class="contacts">info@example.com</a>
-        </li>
-       
-        <li class="tel">
-        <svg class="smartphone" width="16" height="12">
-        <use 
-        href="./images/sprite.svg#icon-smartphone">
-        </use>
-        </svg >
-            <a href="tel:0961111111" class="contacts">+380961111111</a>
-        </li>
-</ul>
-    </div>
-</header>
+
     <main class="main-portfolio">
         <!-- Виды услуг -->
-        <section class="section">
+        <section class="section section-portfolio">
         <div class="container"> 
             <h1 hidden> Наши проекты</h1>
             <ul class="button-types">
@@ -67,70 +74,88 @@
                <!-- Проекты -->
         <ul class="work-examples">
             <li class="work-items">
-                <img src="./images/imgTechno.jpg" alt="Технокряк"/>
-               <div class="workitems-wrapper"> 
-                <h2 class="work-name">Технокряк</h2>
-                <p class="work-type">Веб-сайт</p>
-                </div>
+                <a class="work-items-wrapper" href="">
+                    <img src="./images/imgTechno.jpg" alt="Технокряк"/>
+                    <div class="workitems-wrapper"> 
+                    <h2 class="work-name">Технокряк</h2>
+                    <p class="work-type">Веб-сайт</p>
+                    </div>
+                </a>
             </li>
             <li class="work-items">
-                <img src="./images/imgNewOrlean.jpg" alt="Постер New Orlean vs Golden Star"/>
-                <div class="workitems-wrapper">
-                <h2  class="work-name">Постер New Orlean vs Golden Star</h2>
-                <p class="work-type">Дизайн</p>
-                </div>
+                <a class="work-items-wrapper" href="">
+                    <img src="./images/imgNewOrlean.jpg" alt="Постер New Orlean vs Golden Star"/>
+                    <div class="workitems-wrapper">
+                    <h2  class="work-name">Постер New Orlean vs Golden Star</h2>
+                    <p class="work-type">Дизайн</p>
+                    </div>
+                 </a>
             </li>
             <li class="work-items">
-                <img src="./images/imgSeafood.jpg" alt="Ресторан Seafood"/>
-                <div class="workitems-wrapper"> 
-                <h2  class="work-name">Ресторан Seafood</h2>
-                <p class="work-type">Приложение</p>
-                </div>
-            </li>
-
-            <li class="work-items">
-                <img src="./images/imgPrime.jpg" alt="Проект Prime"/>
-                <div class="workitems-wrapper">
-                <h2 class="work-name">Проект Prime</h2>
-                <p class="work-type">Маркетинг</p>
-                </div>
+                <a class="work-items-wrapper" href="">
+                    <img src="./images/imgSeafood.jpg" alt="Ресторан Seafood"/>
+                    <div class="workitems-wrapper"> 
+                    <h2  class="work-name">Ресторан Seafood</h2>
+                    <p class="work-type">Приложение</p>
+                    </div>
+                </a>
             </li>
 
             <li class="work-items">
-                <img src="./images/imgBoxes.jpg" alt="Проект Boxes"/>
-                <div class="workitems-wrapper">
-                <h2  class="work-name">Проект Boxes</h2>
-                <p class="work-type">Приложение</p>
-                </div>
+                <a class="work-items-wrapper" href="">
+                    <img src="./images/imgPrime.jpg" alt="Проект Prime"/>
+                    <div class="workitems-wrapper">
+                    <h2 class="work-name">Проект Prime</h2>
+                    <p class="work-type">Маркетинг</p>
+                    </div>
+                </a>
             </li>
 
             <li class="work-items">
-                <img src="./images/imgInspiration.jpg" alt="Inspiration has no Borders"/>
-                <div class="workitems-wrapper">
-                <h2  class="work-name">Inspiration has no Borders</h2>
-                <p class="work-type">Веб-сайт</p>
-                </div>
+                <a class="work-items-wrapper" href="">
+                    <img src="./images/imgBoxes.jpg" alt="Проект Boxes"/>
+                    <div class="workitems-wrapper">
+                    <h2  class="work-name">Проект Boxes</h2>
+                    <p class="work-type">Приложение</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="work-items">
+                <a class="work-items-wrapper" href="">
+                    <img src="./images/imgInspiration.jpg" alt="Inspiration has no Borders"/>
+                    <div class="workitems-wrapper">
+                    <h2  class="work-name">Inspiration has no Borders</h2>
+                    <p class="work-type">Веб-сайт</p>
+                    </div>
+                 </a>
             </li>
             <li class="work-items">
-                <img src="./images/imgLimitedEdition.jpg" alt="Издание Limited Edition"/>
-                <div class="workitems-wrapper">
-                <h2  class="work-name">Издание Limited Edition</h2>
-                <p class="work-type">Дизайн</p>
-                </div>
+                <a class="work-items-wrapper" href="">
+                    <img src="./images/imgLimitedEdition.jpg" alt="Издание Limited Edition"/>
+                    <div class="workitems-wrapper">
+                    <h2  class="work-name">Издание Limited Edition</h2>
+                    <p class="work-type">Дизайн</p>
+                    </div>
+                </a>
             </li>
             <li class="work-items">
-                <img src="./images/imgLab.jpg" alt="Проект LAB"/>
-                <div class="workitems-wrapper">
-                <h2  class="work-name">Проект LAB</h2>
-                <p class="work-type">Маркетинг</p>
-                </div>
+                <a class="work-items-wrapper" href="">
+                    <img src="./images/imgLab.jpg" alt="Проект LAB"/>
+                    <div class="workitems-wrapper">
+                    <h2  class="work-name">Проект LAB</h2>
+                    <p class="work-type">Маркетинг</p>
+                    </div>
+                </a>
             </li>
             <li class="work-items">
+                <a class="work-items-wrapper" href="">
                 <img src="./images/imgGrowBusiness.jpg" alt="Growing Business"/>
                 <div class="workitems-wrapper">
                 <h2  class="work-name">Growing Business</h2>
                 <p class="work-type">Приложение</p>
                 </div>
+            </a>
             </li>
         </ul>
 
@@ -186,8 +211,6 @@
                     </a>
                 </li>
                  </ul>
-                </div>
-
                 </div>
         </div>
        
