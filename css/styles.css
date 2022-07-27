@@ -133,12 +133,9 @@ padding-bottom: 94px;
 .contacts:focus {
     color: var(--weblogo-color);}
       
-.envelope:hover{
-    fill: var(--weblogo-color);}
-
+.envelope:hover,
 .smartphone:hover{
     fill: var(--weblogo-color);}
-
   
 .email{
     margin-left: auto;
@@ -147,12 +144,11 @@ padding-bottom: 94px;
 .contacts {
     display: flex;
     align-items: center;
-    font-weight: 500px;
+    font-weight: 500;
     color: var(--tel-color);
     letter-spacing: 0.02em;
     line-height: 1.14;
-    margin-left: 5px;}
-
+    }
 
 .email, .tel {
     display: flex;
@@ -228,13 +224,6 @@ flex-basis: calc((100%-4*30px)/4);
     background-size: cover;
     flex-grow: 1;
     border-radius: 4px;}
-
-/* .advantage-items_pic:hover {
-    border: 1px solid var(--weblogo-color);} */
-
-.pic {
-    margin-left: auto;
-    margin-right: auto;}
 
 .pic:hover {
     fill: var(--weblogo-color);
@@ -328,13 +317,15 @@ flex-basis: calc((100%-4*30px)/4);
     height: 44px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
-    fill: var(--tel-color);
+    fill:  #AFB1B8;;
 }
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
     fill: var(--background); 
    }
-    
+.social-list-icon {
+    fill:#FFFFFF;
+}
 .social-list-link:hover,
 .social-list-link:focus {
     background-color: var(--weblogo-color);}
@@ -382,23 +373,41 @@ flex-basis: calc((100%-4*30px)/4);
 address {
     font-style: normal;}
 
-.address:not(last-child) {
+.address  {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     margin-bottom: 9px;
-    color: var(--background);
-    line-height: 1.71;}
+    }
 
-.contacts.footer {
+/* .contacts-footer:not(:last-child) {
+    margin-bottom: 9px;
+    } */
+
+.contacts-footer{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: var(--tel-color);
-    letter-spacing: 0.03em;}
+    margin-bottom: 9px;
+   }
 
-.contacts.footer:hover {
+.contacts-footer:hover {
     color: var(--weblogo-color);}
 
 /* Стили для потрфолио */
 
 .button-other:hover, .button-other:focus {
     background: var(--weblogo-color);
-    color: var(--sectionbackgroung);}
+    color: var(--sectionbackgroung);
+    box-shadow: 
+    0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 1px 2px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 
 .button-other {
     font-size: 16px solid;
@@ -409,10 +418,6 @@ address {
     color: var(--portcontacts-color);
     background: var(--sectionbackgroung);
     border-radius: 4px;
-    box-shadow: 
-    0px 3px 1px rgba(0, 0, 0, 0.1), 
-    0px 1px 2px rgba(0, 0, 0, 0.08), 
-    0px 2px 2px rgba(0, 0, 0, 0.12);
     border: none;
     padding: 6px 22px;}
 
@@ -467,14 +472,9 @@ address {
     display: flex;
     align-items: baseline;
 }
-/* .href-and-adress {
-    margin-top: 60px;
-    margin-bottom: 60px;
-} */
 .section-join {
     display: block;
     margin-left: 70px;
-    margin-top: 72px;
 }
 .header-join {
     font-family: 'Roboto';
@@ -491,16 +491,22 @@ address {
     margin-right: 10px;
 }
 .work-items-wrapper {
-    height: 404px;
     width: 370px;
     display: block;
-    border: 1px solid #EEEEEE;
+    border: 1px rgba(238, 238, 238, 1);
+   }
+
+.work-items-wrapper:hover,
+.work-items-wrapper:focus {
     box-shadow: 0px 1px 1px rgba (0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0.06),
-    1px 4px 6px rgba (0, 0, 0.16);}
+    1px 4px 6px rgba (0, 0, 0.16);
+}
+
 
 .header-portfolio {
     margin-bottom: 94px;
+    border: 1px solid #ECECEC;;
 }
 .section-portfolio {
     padding-top: 0px;
